@@ -25,6 +25,6 @@
 @import url('//fonts.googleapis.com/css?family=raleway');
 
   
-@font-face {font-family: 'Backpack';src: url('webfonts/2BE885_0_0.eot');src: url('webfonts/2BE885_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2BE885_0_0.woff') format('woff'),url('webfonts/2BE885_0_0.ttf') format('truetype');}
+@font-face {font-family: 'Backpack';src: font-url('webfonts/2BE885_0_0.eot');src: font-url('webfonts/2BE885_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2BE885_0_0.woff') format('woff'),url('webfonts/2BE885_0_0.ttf') format('truetype');}
  
 @font-face {font-family: 'raleway';src: url('//fonts.googleapis.com/css?family=raleway');src: url('//fonts.googleapis.com/css?family=raleway') format('embedded-opentype'),url('//fonts.googleapis.com/css?family=raleway') format('woff'),url('//fonts.googleapis.com/css?family=raleway') format('truetype');}
