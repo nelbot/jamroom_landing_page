@@ -180,3 +180,19 @@ a:after {
 .submitButton {
     padding-top: 10px;
 }
+
+.thankYouText {
+    padding-top: 75px;
+    text-align: center;
+    font-family: Backpack;
+    font-size: 100px;
+    color: #ffffff !important;
+}
+
+.thankYouBody {
+    text-align: center;
+    font-family: Raleway;
+    font-size: 50px;
+    color: #000000 !important;
+    overflow: hidden;
+}
