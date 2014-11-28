@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pratt - Free Bootstrap 3 Theme">
-    <meta name="author" content="Alvarez.is - BlackTie.co">
+    <meta name="description" content="find the local music scene">
+    <meta name="author" content="Jamroom">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
     <title>Jamroom</title>
@@ -85,7 +85,7 @@
 				<br>
 				<div class="col-lg-4">
 					<img src="https://s3.amazonaws.com/jamroombucket/landing+page+listener+icon.png" alt="">
-					<h3>Listeners</h3>
+					<h3>Fans</h3>
 					<p>Find new music and support the bands you already know and love. Find the next great show.</p>
 				</div>
 				<div class="col-lg-4">
@@ -151,7 +151,7 @@
 		                 <div class="accordion-group">
 		                    <div class="accordion-heading">
 		                        <a class="accordion-toggle" data-toggle="" data-parent="#accordion2"><!-- removed "collapse" from data-toggle -->
-		                        Meet Local Music Lovers Just Like You
+		                        Meet Local Music Lovers
 		                        </a>
 		                    </div>
 		                    <div id="collapseThree" class="accordion-body collapse in">
@@ -251,14 +251,24 @@
 			<div class="col-sm-12">
 				<h3>Want Early Access?</h3>
 				<br>
-				<form role="form" action="#" method="post" enctype="plain"> 
+				<label class="radio-inline">
+				  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Fan
+				</label>
+				<label class="radio-inline">
+				  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Artists
+				</label>
+				<label class="radio-inline">
+				  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Venue
+				</label>
+				<br>
+				<form class="form-inline" role="form">
 				  <div class="form-group">
-				   
-				  <div class="form-group">
-				
-				    <label for="email1"></label>
-				    <input type="email" name="Mail" class="form-control" id="email1" placeholder="Enter email">
-				  </div>
+				    <div class="input-group">
+				      <label class="sr-only" for="exampleInputEmail2">Email address</label>
+				      <br>
+				      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+    				</div>
+
 				  <br/>
 				  
 				  <button type="submit" class="btn btn-large btn-success">SUBMIT</button>
@@ -273,11 +283,11 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/bootstrap.js"></script>
+    <!-- <script src="assets/js/bootstrap.js"></script>
 	<script>
 	$('.carousel').carousel({
 	  interval: 3500
 	})
-	</script>
+	</script> -->
   </body>
 </html>
