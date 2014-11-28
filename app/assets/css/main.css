@@ -172,3 +172,11 @@ a:after {
 .jamroom-logo {
     margin-bottom: -35px;
 }
+
+.input-group {
+    text-align: center;
+}
+
+.submitButton {
+    padding-top: 10px;
+}
