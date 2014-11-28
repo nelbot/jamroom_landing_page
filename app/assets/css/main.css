@@ -1,4 +1,3 @@
-
 body {
   background-color: #f2f2f2;
     font-family: "Lato";
@@ -170,3 +169,6 @@ a:after {
     margin: 0 auto;
 }
 
+.jamroom-logo {
+    margin-bottom: -35px;
+}
