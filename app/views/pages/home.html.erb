@@ -86,7 +86,7 @@
 				<div class="col-lg-4">
 					<img src="https://s3.amazonaws.com/jamroombucket/landing+page+listener+icon.png" alt="">
 					<h3>Fans</h3>
-					<p>Find new music and support the bands you already know and love. Find the next great show.</p>
+					<p>Find new music and support the bands you already know and love. Find the next great show!</p>
 				</div>
 				<div class="col-lg-4">
 					<img src="https://s3.amazonaws.com/jamroombucket/landing+page+artist+icon.png" alt="">
@@ -116,7 +116,7 @@
 				</div>
 				
 				<div class="col-lg-6">
-					<h3>All music is reviewed to make sure you will only find local music. No Lady Gaga around here!</h3>
+					<h3>Local Music Only! No Lady Gaga around here!</h3>
 					<br>
 				<!-- ACCORDION -->
 		            <div class="accordion ac" id="accordion2">
@@ -142,7 +142,7 @@
 		                    </div>
 		                    <div id="collapseTwo" class="accordion-body collapse in">
 		                        <div class="accordion-inner">
-								<p>See who’s trending locally with upvotes submitted by actual members like you. Help your friends or yourself get discovered by uploading your own show dates and promoting yourself through Jamroom, for free!</p>
+								<p>See who’s trending locally with upvotes submitted by actual members like you. Help your friends or your band get discovered by uploading show dates and promoting yourself through Jamroom, for free!</p>
 								</div><!-- /accordion-inner -->
 		                    </div><!-- /collapse -->
 		                </div><!-- /accordion-group -->
@@ -272,6 +272,12 @@
 				  <button type="submit" class="btn btn-large btn-success">SUBMIT</button>
 				</div>
 				</form>
+			 
+				<% form_for(@subscriber) do |f| %>
+  				<%= f.text_field :email %>
+  				<%= f.submit %>
+				<% end %> 
+			
 			</div>
 		  </div>
 		</div>
