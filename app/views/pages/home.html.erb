@@ -128,7 +128,7 @@
 		                    </div><!-- /accordion-heading -->
 		                    <div id="collapseOne" class="accordion-body collapse in">
 		                        <div class="accordion-inner">
-								<p>Everyone has power, from the listener to the artist to the venue, to submit local acts. With the help of the community we are able to provide the most comprehensive directory of local music, anywhere!</p>
+								<p>From listener to artist to venue, everyone has the ability to submit local acts. With the help of the community, Jamroom is able to provide the most comprehensive directory of local music, anywhere!</p>
 								</div><!-- /accordion-inner -->
 		                    </div><!-- /collapse -->
 		                </div><!-- /accordion-group -->
@@ -151,7 +151,7 @@
 		                 <div class="accordion-group">
 		                    <div class="accordion-heading">
 		                        <a class="accordion-toggle" data-toggle="" data-parent="#accordion2"><!-- removed "collapse" from data-toggle -->
-		                        Meet Local Music Lovers
+		                        Meet Local Music Lovers Like You
 		                        </a>
 		                    </div>
 		                    <div id="collapseThree" class="accordion-body collapse in">
@@ -272,12 +272,13 @@
 				  <button type="submit" class="btn btn-large btn-success">SUBMIT</button>
 				</div>
 				</form>
-			 
-				<% form_for(@subscriber) do |f| %>
-  				<%= f.text_field :email %>
-  				<%= f.submit %>
-				<% end %> 
-			
+
+			<% form_for(@subscriber) do |f| %>
+			  <%= f.text_field :email %>
+			  <%= f.submit %>
+			<% end %>
+		
+
 			</div>
 		  </div>
 		</div>
