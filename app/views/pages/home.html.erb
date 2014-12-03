@@ -265,18 +265,38 @@
 					</label>
 				<br>
 				<br>
-				 	<label class="enterEmail">
+				 	<!-- <label class="enterEmail">
 				 		<input type="email" class="form-control" id="enterEmail" placeholder="Enter email">
 				 	</label>
-				<div class="submitButton">
-				  <button type="submit" class="btn btn-large btn-success">SUBMIT</button>
-				</div>
+					<div class="submitButton">
+				  		<button type="submit" class="btn btn-large btn-success">SUBMIT</button>
+					</div> -->
 				</form>
+			
 
-			<% form_for(@subscriber) do |f| %>
-			  <%= f.text_field :email %>
-			  <%= f.submit %>
-			<% end %>
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= devise_error_messages! %>
+
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.email_field :email, autofocus: true %>
+  </div>
+<br />
+  <div class="actions">
+    <%= f.submit "Submit", class: "btn btn-primary btn-lg" %>
+  </div>
+<% end %>
+
+%h2 Sign up. All we need is your email address.
+    = semantic_form_for(resource, :as => resource_name, :url => user_registration_path(resource)) do |form|
+      = devise_error_messages!
+      = form.inputs do
+        = form.input :email, :input_html => {:autofocus => true}
+      = form.actions do
+        = form.action :submit, :label => "Sign up"
+
+  
 		
 
 			</div>
